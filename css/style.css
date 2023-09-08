@@ -311,8 +311,12 @@ footer nav {
     }
 
     .filtres {
-        max-width: 80%;
+        max-width: 100%;
         display: block;
+    }
+
+    .filtres button {
+        padding: 10px;
     }
 
     .filtres div {
@@ -395,9 +399,6 @@ footer nav {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    body {
-        width: 100%;
-    }
 
     .main-container {
         padding: 0;
@@ -438,6 +439,7 @@ footer nav {
 
     .filtres button {
         margin-bottom: 10px;
+        width: 46%;
     }
 
     .button1 span {
