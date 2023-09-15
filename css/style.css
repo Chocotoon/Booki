@@ -106,8 +106,6 @@ a {
 
 .filtres {
     display: flex;
-    justify-content: space-between;
-    max-width: 65%;
     margin-bottom: 40px;
 }
 
@@ -195,10 +193,14 @@ section {
     justify-content: space-between;
 }
 
+.hebergements-cards a {
+    width: 30%;
+}
+
 .hebergements .card {
     max-width: 246px;
     margin-top: 33px;
-    min-width: 200px;
+    width: 100%;
 }
 
 .hebergements .card img {
@@ -311,12 +313,13 @@ footer nav {
     }
 
     .filtres {
-        max-width: 100%;
+        width: 80%;
         display: block;
     }
 
     .filtres button {
         padding: 10px;
+        width: 22%;
     }
 
     .filtres div {
@@ -409,17 +412,18 @@ footer nav {
     }
 
     header img {
-        margin-left: 42%;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
     }
 
     header nav {
-        width: 70%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 100%;
     }
 
-    header nav li {
-        width: 40%;
+    header nav ul {
+        padding: 0;
+        justify-content: space-around;
     }
 
     header a:hover {
@@ -437,9 +441,17 @@ footer nav {
         max-width: fit-content;
     }
 
+    .btns_filtres {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        gap: 10px;
+    }
+
     .filtres button {
         margin-bottom: 10px;
-        width: 46%;
+        width: 100%;
+        height: 60px;
+        display: block;
     }
 
     .button1 span {
