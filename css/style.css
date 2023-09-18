@@ -442,14 +442,12 @@ footer nav {
     }
 
     .btns_filtres {
-        display: grid;
-        grid-template-columns: 150px 150px;
-        gap: 10px;
+       flex-wrap: wrap;
     }
 
     .filtres button {
         margin-bottom: 10px;
-        width: 100%;
+        width: 45%;
         height: 60px;
         display: block;
     }
