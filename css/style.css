@@ -35,13 +35,11 @@ header ul {
     justify-content: space-between;
 }
 
-header a {
-    color: #0065FC;
-}
 
 header a:hover {
     border-top: #0065FC solid;
     padding-top: 22px;
+    color: #0065FC; 
 }
 
 body {
@@ -438,11 +436,12 @@ footer nav {
     }
 
     .filtres {
-        max-width: fit-content;
+        width: 100%;
     }
 
     .btns_filtres {
        flex-wrap: wrap;
+       margin-right: 10%;
     }
 
     .filtres button {
@@ -450,6 +449,7 @@ footer nav {
         width: 45%;
         height: 60px;
         display: block;
+        font-size: 14px;
     }
 
     .button1 span {
